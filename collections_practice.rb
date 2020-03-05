@@ -32,3 +32,7 @@ def kesha_maker(array)
   end
   k
 end
+
+def find_a(array)
+  arr = array.select {|item| item.first?("a")}
+end
