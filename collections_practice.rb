@@ -5,3 +5,9 @@ end
 def sort_array_desc(array)
   array.sort.reverse
 end
+
+def sort_array_char_count(array)
+  arr = []
+  arr << array.sort { |a, b| a.length <=> b.length }
+  arr
+end
